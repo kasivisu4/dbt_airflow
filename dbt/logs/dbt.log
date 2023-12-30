@@ -1,0 +1,44 @@
+[0m15:23:21.930719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC0C390D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC0F060D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC0F060A90>]}
+
+
+============================== 15:23:21.935462 | 14ec4a4d-9a4e-4466-b23b-3c3e0d17d199 ==============================
+[0m15:23:21.935462 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:23:21.936468 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\kasiv\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m15:23:21.937467 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/kasiv/.dbt')}
+[0m15:23:21.938468 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m15:23:42.105303 [debug] [MainThread]: Starter project path: C:\Users\kasiv\anaconda3\lib\site-packages\dbt\include\starter_project
+[0m15:23:42.117819 [info ] [MainThread]: 
+Your new dbt project "cosmosproject" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:23:42.118829 [info ] [MainThread]: Setting up your profile.
+[0m15:27:22.414607 [info ] [MainThread]: Profile cosmosproject written to C:\Users\kasiv\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:27:22.417587 [debug] [MainThread]: Command `dbt init` succeeded at 15:27:22.416588 after 240.50 seconds
+[0m15:27:22.417587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC0C390D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC2FA64370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC2FA5E100>]}
+[0m15:27:22.418661 [debug] [MainThread]: Flushing usage events
+[0m19:23:49.157857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7C8532C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7C8CD4220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7CB24AA60>]}
+
+
+============================== 19:23:49.161965 | 20b725b1-ad17-4f73-8d10-a3b682bd5a8a ==============================
+[0m19:23:49.161965 [info ] [MainThread]: Running with dbt=1.7.4
+[0m19:23:49.162971 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\kasiv\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt deps', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:23:49.163966 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\projects\dbt_airflow\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:23:49.164976 [debug] [MainThread]: Command `dbt deps` failed at 19:23:49.164976 after 0.08 seconds
+[0m19:23:49.166042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7C8532C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7CB239970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7CB2A3C70>]}
+[0m19:23:49.166042 [debug] [MainThread]: Flushing usage events
